@@ -1,0 +1,62 @@
+.liste {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 50px;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+#button {
+  width: 7rem;
+  margin: 10px;
+  height: 2rem;
+  border-radius: 10px;
+  margin-top: -35px;
+}
+
+button:hover {
+  background-color: lightblue;
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.photo {
+  width: 4rem;
+}
+
+.seances {
+  font-size: 17px;
+  margin-left: 0.7rem;
+}
+.titre {
+  font-size: 24px;
+  text-align: center;
+}
+
+.resume {
+  font-size: 15px;
+  padding: 0.7rem;
+}
+
+#FilmList {
+  border-width: 1px;
+  border-style: groove;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.image {
+  display: flex;
+  margin: auto;
+}
